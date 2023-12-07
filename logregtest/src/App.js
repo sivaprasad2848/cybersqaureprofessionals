@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import login from './component/login/login';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Login from './component/login/Login';
 
 function App() {
   return (
     <div className="App">
-      <login />
+      <Login />
     </div>
   );
 }
